@@ -1,3 +1,6 @@
+
+// 🌿 Sarv UI v0.2.6
+// Built with care by MJ
 export default function radio({
   addComponents,
   matchComponents,
@@ -21,28 +24,24 @@ export default function radio({
         "box-shadow 0.25s ease, background-color 0.25s ease, transform 0.25s ease, opacity 0.25s ease",
     },
 
-    // ایندیکاتور پرکننده (کل محیط)
     ".radio-mask::after": {
       content: '""',
       "@apply absolute inset-0 rounded-full bg-current": {},
-      transform: "scale(0.7)", // شروع از 0.7 مثل چک‌باکس
+      transform: "scale(0.7)", 
       opacity: "0",
       transition:
         "transform 0.25s ease, opacity 0.25s ease, box-shadow 0.25s ease",
     },
 
-    // حالت پیش‌فرض
     ".radio:not(:checked) ~ .radio-mask": {
       boxShadow: "inset 0 0 0 2px var(--color-base-500)",
     },
 
-    // حالت غیرچک‌شده + هاور → بک‌گراند ملایم
     ".radio:not(:checked):hover ~ .radio-mask": {
       "@apply bg-base-500": {},
       boxShadow: "inset 0 0 0 var(--color-base-500)",
     },
 
-    // حالت انتخاب‌شده
     ".radio:checked ~ .radio-mask": {
       boxShadow: "none",
     },
@@ -52,21 +51,18 @@ export default function radio({
       boxShadow: "0 0 0px currentColor",
     },
 
-    // حالت انتخاب‌شده + هاور → Glow
     ".radio:checked:hover ~ .radio-mask::after": {
       transform: "scale(1)",
       opacity: "1",
       boxShadow: "0 0 2px currentColor",
     },
 
-    // حالت غیرفعال
     ".radio:disabled": { "@apply cursor-not-allowed opacity-50": {} },
     ".radio:checked:disabled ~ .radio-mask": {
       "@apply cursor-not-allowed text-neutral": {},
     },
   });
 
-  // سایزها
   matchUtilities(
     {
       radio: (value) => ({
@@ -82,7 +78,6 @@ export default function radio({
     }
   );
 
-  // رنگ‌ها
   matchComponents(
     {
       radio: (value) => ({

@@ -1,5 +1,7 @@
-:root 
-{
+/* 🌿 Sarv UI v0.2.6
+ * Built with care by MJ
+ */
+:root {
   /* colors */
   --theme-color-primary: #0066a4;
   --theme-color-primary: oklch(49.417% 0.12628 245.712);
