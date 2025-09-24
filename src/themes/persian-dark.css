@@ -70,6 +70,6 @@
   --theme-shadow-color: 0, 0, 0;
   /* border radiuses */
   --theme-radius-checkbox: 40%;
-  --theme-radius-button: 0.5rem;
+  --theme-radius-button: 0.25rem;
   --theme-radius-card: 0.2rem;
 }

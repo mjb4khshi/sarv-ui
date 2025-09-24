@@ -1,5 +1,3 @@
-// 🌿 Sarv UI v0.1.0
-// First release — designed & built by MJ
 export default function checkbox({
   addComponents,
   addUtilities,
@@ -69,10 +67,14 @@ export default function checkbox({
       transition: "stroke-dashoffset 1.1s ease-in-out",
     },
   });
+  // --- add below your existing addComponents(...) ---
+  // JIT: colors (فقط color روی wrapper ست می‌شه → bg-current و stroke-current تو CSS فعلی‌ات کار می‌کنن)
 
+  // 1) JIT: سایزهای نام‌گذاری‌شده (xs..4xl) — توصیه: این کلاس رو روی .checkbox-wrap بزن
   matchUtilities(
     {
       checkbox: (value) => ({
+        // متغیر ارث‌پذیر؛ اگر روی .checkbox-wrap ست بشه، به ماسک هم می‌رسه
         "--cb-size": value,
       }),
     },
@@ -90,8 +92,10 @@ export default function checkbox({
     }
   );
 
+  // 2) مصرف متغیر سایز در ماسک (بدون تغییر ظاهر پیش‌فرض)
   addComponents({
     ".checkbox-mask": {
+      // فالبک همون اندازه‌ی قبلیت
       width: "var(--cb-size, theme(spacing.5))",
       height: "var(--cb-size, theme(spacing.5))",
     },
@@ -116,3 +120,5 @@ export default function checkbox({
     }
   );
 }
+// 3) سازگاری با استفاده‌ی سایز روی input (بدون تغییر HTML):
+// اگر کلاس سایز رو روی خود input بزنی، این قوانین اندازه‌ی ماسک رو ست می‌کنن.
