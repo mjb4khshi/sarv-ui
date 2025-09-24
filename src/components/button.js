@@ -1,5 +1,7 @@
+// 🌿 Sarv UI v0.2.6
+// Built with care by MJ
+
 export default function button({ addComponents, matchComponents, theme }) {
-  // بیس دکمه
   addComponents({
     ".btn": {
       "@apply flex cursor-pointer gap-0 items-center justify-center rounded-button font-medium transition-all duration-200":
@@ -10,7 +12,6 @@ export default function button({ addComponents, matchComponents, theme }) {
     },
   });
 
-  // حالت Solid (پیش‌فرض)
   matchComponents(
     {
       btn: (value) => ({
@@ -32,7 +33,6 @@ export default function button({ addComponents, matchComponents, theme }) {
     }
   );
 
-  // حالت Soft
   matchComponents(
     {
       "btn-soft": (value) => ({
@@ -58,7 +58,6 @@ export default function button({ addComponents, matchComponents, theme }) {
     }
   );
 
-  // حالت Outline
   matchComponents(
     {
       "btn-outline": (value) => ({
@@ -85,7 +84,6 @@ export default function button({ addComponents, matchComponents, theme }) {
     }
   );
 
-  // سایزها
   matchComponents(
     {
       btn: (value) => ({
