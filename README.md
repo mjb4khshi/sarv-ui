@@ -46,9 +46,8 @@ In your Tailwind entry CSS (e.g. `src/index.css`):
 sarv-ui/
  ├─ index.js        # Tailwind plugin
  ├─ sarv.css        # tokens entrypoint
- ├─ tokens.css      # base tokens
  └─ themes/
-     ├─ light.css
+     ├─ persian-light.css
      └─ persian-dark.css
 ```
 
