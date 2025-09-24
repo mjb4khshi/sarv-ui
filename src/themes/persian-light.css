@@ -72,7 +72,7 @@
   /* shadow color (whrite rgb channel like this)*/
   --theme-shadow-color: 0, 0, 0;
   /* border radiuses */
-  --theme-radius-checkbox: 30%;
-  --theme-radius-button: 1rem;
+  --theme-radius-checkbox: 40%;
+  --theme-radius-button: 0.3rem;
   --theme-radius-card: 0.2rem;
 }

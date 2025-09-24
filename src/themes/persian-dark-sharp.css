@@ -2,7 +2,7 @@
 /* 🌿 Sarv UI v0.2.6
  * Built with care by MJ
  */
-[datatheme=persian-dark] {
+[datatheme=persian-dark-sharp] {
   /* colors */
   --theme-color-primary: #0066a4;
   --theme-color-primary: oklch(49.417% 0.12628 245.712);
@@ -73,7 +73,7 @@
   /* shadow color (whrite rgb channel like this)*/
   --theme-shadow-color: 0, 0, 0;
   /* border radiuses */
-  --theme-radius-checkbox: 40%;
-  --theme-radius-button: 0.3rem;
-  --theme-radius-card: 0.2rem;
+  --theme-radius-checkbox: 0;
+  --theme-radius-button: 0;
+  --theme-radius-card: 0;
 }

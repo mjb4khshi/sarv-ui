@@ -1,8 +1,7 @@
-
 /* 🌿 Sarv UI v0.2.6
  * Built with care by MJ
  */
-[datatheme=persian-dark] {
+[datatheme=persian-light-sharp] {
   /* colors */
   --theme-color-primary: #0066a4;
   --theme-color-primary: oklch(49.417% 0.12628 245.712);
@@ -28,8 +27,8 @@
   --theme-color-neutral: #a2a2a2;
   --theme-color-neutral: oklch(71.224% 0.00008 271.152);
 
-  --theme-color-base: #000000;
-  --theme-color-base: oklch(0% 0 0);
+  --theme-color-base: #ffffff;
+  --theme-color-base: oklch(100% 0.00011 271.152);
 
   --theme-color-neutral-dark: #404040;
   --theme-color-neutral-dark: oklch(37.15% 0.00004 271.152);
@@ -38,8 +37,8 @@
   --theme-color-neutral-darker: oklch(23.503% 0.00003 271.152);
 
   /* Checkbox frames using this color */
-  --theme-color-base-500: #222222;
-  --theme-color-base-500: oklch(27.274% 0.00003 271.152 / 0.867);
+  --theme-color-base-500: #dddddd;
+  --theme-color-base-500: oklch(89.755% 0.0001 271.152 / 0.867);
   --theme-color-base-900: #858585;
   --theme-color-base-900: oklch(61.671% 0.00007 271.152);
   /* content color */
@@ -73,7 +72,7 @@
   /* shadow color (whrite rgb channel like this)*/
   --theme-shadow-color: 0, 0, 0;
   /* border radiuses */
-  --theme-radius-checkbox: 40%;
-  --theme-radius-button: 0.3rem;
-  --theme-radius-card: 0.2rem;
+  --theme-radius-checkbox: 0;
+  --theme-radius-button: 0;
+  --theme-radius-card: 0;
 }
