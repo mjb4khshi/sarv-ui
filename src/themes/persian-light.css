@@ -1,0 +1,75 @@
+:root {
+  /* colors */
+  --theme-color-primary: #0066a4;
+  --theme-color-primary: oklch(49.417% 0.12628 245.712);
+
+  --theme-color-success: #46c93a;
+  --theme-color-success: oklch(73.664% 0.21363 141.933);
+
+  --theme-color-warn: #ffba00;
+  --theme-color-warn: oklch(0.831 0.171 81.54);
+
+  --theme-color-info: #00a594;
+  --theme-color-info: oklch(64.783% 0.11594 182.205);
+
+  --theme-color-accent: #fe28a2;
+  --theme-color-accent: oklch(66.572% 0.25691 352.736);
+
+  --theme-color-secondary: #d88f58;
+  --theme-color-secondary: oklch(71.263% 0.1137 56.642);
+
+  --theme-color-danger: #ff4757;
+  --theme-color-danger: oklch(66.889% 0.21892 20.897);
+
+  --theme-color-neutral: #a2a2a2;
+  --theme-color-neutral: oklch(71.224% 0.00008 271.152);
+
+  --theme-color-base: #ffffff;
+  --theme-color-base: oklch(100% 0.00011 271.152);
+
+  --theme-color-neutral-dark: #404040;
+  --theme-color-neutral-dark: oklch(37.15% 0.00004 271.152);
+
+  --theme-color-neutral-darker: #1e1e1e;
+  --theme-color-neutral-darker: oklch(23.503% 0.00003 271.152);
+
+  /* Checkbox frames using this color */
+  --theme-color-base-500: #dddddd;
+  --theme-color-base-500: oklch(89.755% 0.0001 271.152 / 0.867);
+  --theme-color-base-900: #858585;
+  --theme-color-base-900: oklch(61.671% 0.00007 271.152);
+  /* content color */
+  --theme-color-primary-content: #ffffff;
+  --theme-color-primary-content: oklch(100% 0 0);
+
+  --theme-color-success-content: #ffffff;
+  --theme-color-success-content: oklch(100% 0 0);
+
+  --theme-color-warn-content: #000000;
+  --theme-color-warn-content: oklch(0% 0 0);
+
+  --theme-color-info-content: #ffffff;
+  --theme-color-info-content: oklch(100% 0 0);
+
+  --theme-color-accent-content: #ffffff;
+  --theme-color-accent-content: oklch(100% 0 0);
+
+  --theme-color-secondary-content: #ffffff;
+  --theme-color-secondary-content: oklch(100% 0 0);
+
+  --theme-color-danger-content: #ffffff;
+  --theme-color-danger-content: oklch(100% 0 0);
+
+  --theme-color-neutral-content: #ffffff;
+  --theme-color-neutral-content: oklch(100% 0 0);
+
+  --theme-color-base-content: #ffffff;
+  --theme-color-base-content: oklch(100% 0 0);
+
+  /* shadow color (whrite rgb channel like this)*/
+  --theme-shadow-color: 0, 0, 0;
+  /* border radiuses */
+  --theme-radius-checkbox: 40%;
+  --theme-radius-button: 0.5rem;
+  --theme-radius-card: 0.2rem;
+}
