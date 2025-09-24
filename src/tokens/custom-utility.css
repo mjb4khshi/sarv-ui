@@ -1,7 +1,0 @@
-@utility cb-animate {
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 200;
-  stroke-dashoffset: 200;
-  transition: stroke-dashoffset 1.1s ease-in-out;
-}
