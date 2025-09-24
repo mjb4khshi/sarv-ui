@@ -1,6 +1,5 @@
-// 🌿 Sarv UI v0.1.0
-// First release — designed & built by MJ
 export default function badges({ addComponents, matchComponents, theme }) {
+  // بیس بج
   addComponents({
     ".badge": {
       "@apply inline-flex items-center font-medium rounded-full text-xs px-2 py-0.5":
@@ -8,6 +7,7 @@ export default function badges({ addComponents, matchComponents, theme }) {
     },
   });
 
+  // حالت Solid
   matchComponents(
     {
       badge: (value) => ({
@@ -29,6 +29,7 @@ export default function badges({ addComponents, matchComponents, theme }) {
     }
   );
 
+  // حالت Soft
   matchComponents(
     {
       "badge-soft": (value) => ({
@@ -50,6 +51,7 @@ export default function badges({ addComponents, matchComponents, theme }) {
     }
   );
 
+  // حالت Outline
   matchComponents(
     {
       "badge-outline": (value) => ({

@@ -1,4 +1,5 @@
-:root {
+:root 
+{
   /* colors */
   --theme-color-primary: #0066a4;
   --theme-color-primary: oklch(49.417% 0.12628 245.712);
@@ -69,7 +70,7 @@
   /* shadow color (whrite rgb channel like this)*/
   --theme-shadow-color: 0, 0, 0;
   /* border radiuses */
-  --theme-radius-checkbox: 40%;
-  --theme-radius-button: 0.5rem;
+  --theme-radius-checkbox: 30%;
+  --theme-radius-button: 1rem;
   --theme-radius-card: 0.2rem;
 }
