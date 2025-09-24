@@ -66,8 +66,8 @@
   --theme-color-neutral-content: #ffffff;
   --theme-color-neutral-content: oklch(100% 0 0);
 
-  --theme-color-base-content: #ffffff;
-  --theme-color-base-content: oklch(100% 0 0);
+  --theme-color-base-content: #000000;
+  --theme-color-base-content: oklch(0% 0 0)
 
   /* shadow color (whrite rgb channel like this)*/
   --theme-shadow-color: 0, 0, 0;

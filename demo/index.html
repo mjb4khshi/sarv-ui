@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" datatheme="persian-dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarv UI – Full Demo with Theme Selector</title>
+    <link rel="stylesheet" href="./output.css" />
+    <style>
+      .theme-select {
+        @apply border rounded px-3 py-1 bg-base text-base;
+      }
+    </style>
+  </head>
+  <body class="bg-base text-base-content p-8 space-y-12">
+    <header class="flex items-center justify-between mb-8">
+      <h1 class="text-3xl font-bold">🌿 Sarv UI – Semantic Components Demo</h1>
+      <!-- Theme Selector -->
+      <select id="themeSelect" class="theme-select">
+        <option value="persian-dark" selected>Persian Dark</option>
+        <option value="">persian-light</option>
+        <option value="persian-dark-sharp">persian-dark-sharp</option>
+        <option value="persian-light-sharp">persian-light-sharp</option>
+      </select>
+    </header>
+
+    <!-- ✅ Buttons -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Buttons</h2>
+      <div class="flex flex-wrap gap-2">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-warn">Warning</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-accent">Accent</button>
+        <button class="btn btn-neutral">Neutral</button>
+      </div>
+    </section>
+    <!-- ✅ Buttons – Soft Variants -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Buttons – Soft</h2>
+      <div class="flex flex-wrap gap-2">
+        <button class="btn btn-soft-primary">Soft Primary</button>
+        <button class="btn btn-soft-secondary">Soft Secondary</button>
+        <button class="btn btn-soft-success">Soft Success</button>
+        <button class="btn btn-soft-warn">Soft Warning</button>
+        <button class="btn btn-soft-danger">Soft Danger</button>
+        <button class="btn btn-soft-info">Soft Info</button>
+        <button class="btn btn-soft-accent">Soft Accent</button>
+        <button class="btn btn-soft-neutral">Soft Neutral</button>
+      </div>
+    </section>
+
+    <!-- ✅ Buttons – Outline Variants -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Buttons – Outline</h2>
+      <div class="flex flex-wrap gap-2">
+        <button class="btn btn-outline-primary">Outline Primary</button>
+        <button class="btn btn-outline-secondary">Outline Secondary</button>
+        <button class="btn btn-outline-success">Outline Success</button>
+        <button class="btn btn-outline-warn">Outline Warning</button>
+        <button class="btn btn-outline-danger">Outline Danger</button>
+        <button class="btn btn-outline-info">Outline Info</button>
+        <button class="btn btn-outline-accent">Outline Accent</button>
+        <button class="btn btn-outline-neutral">Outline Neutral</button>
+      </div>
+    </section>
+
+    <!-- ✅ Checkboxes -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Checkboxes</h2>
+      <div class="flex flex-wrap gap-6">
+        <span class="checkbox-wrap checkbox-primary">
+          <input type="checkbox" class="checkbox" checked />
+          <span class="checkbox-mask">
+            <svg class="checkbox-icon" viewBox="0 0 24 24">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+        </span>
+        <span class="checkbox-wrap checkbox-success">
+          <input type="checkbox" class="checkbox" />
+          <span class="checkbox-mask">
+            <svg class="checkbox-icon" viewBox="0 0 24 24">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+        </span>
+        <span class="checkbox-wrap checkbox-warn">
+          <input type="checkbox" class="checkbox" />
+          <span class="checkbox-mask">
+            <svg class="checkbox-icon" viewBox="0 0 24 24">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+        </span>
+        <span class="checkbox-wrap checkbox-danger">
+          <input type="checkbox" class="checkbox" />
+          <span class="checkbox-mask">
+            <svg class="checkbox-icon" viewBox="0 0 24 24">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+        </span>
+        <span class="checkbox-wrap checkbox-info">
+          <input type="checkbox" class="checkbox" />
+          <span class="checkbox-mask">
+            <svg class="checkbox-icon" viewBox="0 0 24 24">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+        </span>
+        <span class="checkbox-wrap checkbox-accent">
+          <input type="checkbox" class="checkbox" />
+          <span class="checkbox-mask">
+            <svg class="checkbox-icon" viewBox="0 0 24 24">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+        </span>
+      </div>
+    </section>
+
+    <!-- ✅ Radios -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Radios</h2>
+      <div class="flex flex-wrap gap-4">
+        <label class="radio-wrap"
+          ><input
+            type="radio"
+            name="opt"
+            class="radio radio-primary"
+            checked /><span class="radio-mask"></span
+        ></label>
+        <label class="radio-wrap"
+          ><input type="radio" name="opt" class="radio radio-secondary" /><span
+            class="radio-mask"
+          ></span
+        ></label>
+        <label class="radio-wrap"
+          ><input type="radio" name="opt" class="radio radio-success" /><span
+            class="radio-mask"
+          ></span
+        ></label>
+        <label class="radio-wrap"
+          ><input type="radio" name="opt" class="radio radio-warn" /><span
+            class="radio-mask"
+          ></span
+        ></label>
+        <label class="radio-wrap"
+          ><input type="radio" name="opt" class="radio radio-danger" /><span
+            class="radio-mask"
+          ></span
+        ></label>
+        <label class="radio-wrap"
+          ><input type="radio" name="opt" class="radio radio-info" /><span
+            class="radio-mask"
+          ></span
+        ></label>
+        <label class="radio-wrap"
+          ><input type="radio" name="opt" class="radio radio-accent" /><span
+            class="radio-mask"
+          ></span
+        ></label>
+      </div>
+    </section>
+
+    <!-- ✅ Badges -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Badges</h2>
+      <!-- Solid -->
+      <div class="flex flex-wrap gap-3 mb-4">
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-warn">Warning</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-accent">Accent</span>
+      </div>
+      <!-- Soft -->
+      <div class="flex flex-wrap gap-3 mb-4">
+        <span class="badge badge-soft-primary">Soft Primary</span>
+        <span class="badge badge-soft-secondary">Soft Secondary</span>
+        <span class="badge badge-soft-success">Soft Success</span>
+        <span class="badge badge-soft-warn">Soft Warning</span>
+        <span class="badge badge-soft-danger">Soft Danger</span>
+        <span class="badge badge-soft-info">Soft Info</span>
+        <span class="badge badge-soft-accent">Soft Accent</span>
+      </div>
+      <!-- Outline -->
+      <div class="flex flex-wrap gap-3">
+        <span class="badge badge-outline-primary">Outline Primary</span>
+        <span class="badge badge-outline-secondary">Outline Secondary</span>
+        <span class="badge badge-outline-success">Outline Success</span>
+        <span class="badge badge-outline-warn">Outline Warning</span>
+        <span class="badge badge-outline-danger">Outline Danger</span>
+        <span class="badge badge-outline-info">Outline Info</span>
+        <span class="badge badge-outline-accent">Outline Accent</span>
+      </div>
+    </section>
+
+    <script>
+      const themeSelect = document.getElementById("themeSelect");
+      themeSelect.addEventListener("change", (e) => {
+        document.documentElement.setAttribute("datatheme", e.target.value);
+      });
+    </script>
+  </body>
+</html>
