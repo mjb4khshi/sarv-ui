@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/mjb4khshi/sarv-ui/main/sarv-logo.png" alt="Herb" width="25"  /> Sarv UI
+# <img src="https://raw.githubusercontent.com/mjb4khshi/sarv-ui/main/sarv-logo.png" alt="logo" width="25"  /> Sarv UI
 demo: https://mjb4khshi.github.io/sarv-ui/
 
 
