@@ -70,4 +70,5 @@ Open an issue on [GitHub](https://github.com/mjb4khshi/sarv-ui/issues).
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" alt="Scroll" width="25" height="25" /> License
 
-MIT © MJ
+This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
+
