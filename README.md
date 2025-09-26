@@ -57,7 +57,7 @@ sarv-ui/
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" alt="Package" width="25" height="25" /> Version
 
-Current release: **v0.2.6** 🌿
+Current release: **v0.2.9** 🌿
 
 ---
 
